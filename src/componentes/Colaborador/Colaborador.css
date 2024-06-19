@@ -1,0 +1,95 @@
+.colaborador {
+    width: 280px;
+    margin-bottom: 24px;
+    transition: transform .1s;
+    position: relative;
+}
+
+.colaboradorFav {
+    outline-style: solid;
+    outline-color: red;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.colaborador:hover {
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
+.colaborador:hover .eliminar{
+    display: block;
+}
+
+.colaborador:hover .corazonVacio{
+    display: initial;
+}
+
+.colaborador .encabezado {
+    background-color: #f0f0f0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.colaborador img {
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+.colaborador .info {
+    background-color: white;
+    box-shadow: 5px 5px 15px black (0,0,0,0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    min-height: 100px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.colaborador .info h4 {
+    color: #6278f7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.colaborador .info h5 {
+    font-size: 18px;
+    line-height: 22px;
+    color:#212121;
+    padding: 0 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.eliminar{
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    display: none;
+}
+.eliminar:hover {
+    filter:contrast(0)
+}
+
+.corazonLleno, .corazonVacio {
+    position: relative;
+    top: 17px;
+}
+
+.corazonVacio {
+    display: none;
+}
+
+.corazonVacio:active{
+    transform: scale(1.2);
+}
+
+.corazonLleno {
+    transform: scale(1.2);
+}
+
+.corazonLleno:active {
+    transform: scale(1);
+}

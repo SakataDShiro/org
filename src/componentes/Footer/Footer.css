@@ -1,0 +1,38 @@
+.footer{
+    width: 100%;
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.redes img{
+    padding: 0px 0px;
+    height: 90px;
+    width: 90px;
+    object-fit: contain ;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    justify-content : center;
+    right: 40%;
+    position: absolute;
+}
+
+strong {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-align: right;
+    margin-top: 30px;
+}

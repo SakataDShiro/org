@@ -1,0 +1,33 @@
+.orgSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: Prata;
+    color:rgba(98, 120, 247, 1);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 72px;
+    padding-bottom: 24px;
+    border-bottom: 4px solid rgba(98, 120, 247, 1);
+}
+
+.orgSection img {
+    position: absolute;
+    right: 15%;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.orgSection img:hover {
+    transform: scale(1.2);
+    transition: .2s;
+}
+
+.orgSection img:active {
+    transform: scale(1.1);
+    transition: .1s;
+}
